@@ -33,9 +33,9 @@ function Header() {
     }
   }, [showRoleMenu]);
 
-  if (!user) return null;
-
   const path = location.pathname;
+  if (!user || path === '/') return null;
+
   const isModulesCatalog = path === '/modules';
   const isRetailOpsDashboard = path === '/retail-ops' || path === '/dashboard';
   
