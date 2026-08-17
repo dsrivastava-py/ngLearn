@@ -5,14 +5,12 @@ import BrandLogo from './BrandLogo.jsx';
 import { Sun, Moon, Check } from './icons.jsx';
 
 export default function Login() {
-  const [email, setEmail] = useState('');
-  const [pw, setPw] = useState('');
-  const [selectedRole, setSelectedRole] = useState('super-admin');
   const { login, user } = useStore();
+  const [email, setEmail] = useState(() => user?.email || '');
+  const [pw, setPw] = useState('');
+  const [selectedRole, setSelectedRole] = useState(() => user?.role || 'super-admin');
   const navigate = useNavigate();
   const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || 'light');
-
-  if (user) { return <Navigate to="/modules" replace />; }
 
   const toggleTheme = () => {
     const next = theme === 'light' ? 'dark' : 'light';

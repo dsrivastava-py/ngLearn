@@ -53,7 +53,7 @@ function Header() {
 
   return (
     <header className="header">
-      <Link to="/modules" className="brand" title="NG Learn — Nurturing Green">
+      <Link to="/" className="brand" title="NG Learn — Nurturing Green">
         <BrandLogo height={46} showSubtitle={true} subtitle="LEARN" />
       </Link>
 
@@ -211,7 +211,7 @@ export default function App() {
         <Route path="/retail-ops/completion" element={<ProtectedRoute><CompletionPage /></ProtectedRoute>} />
         <Route path="/completion" element={<ProtectedRoute><CompletionPage /></ProtectedRoute>} />
         
-        <Route path="*" element={<Navigate to="/modules" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );

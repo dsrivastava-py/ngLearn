@@ -29,7 +29,7 @@ function defaultState() {
   const sections = {};
   SECTIONS.forEach(s => { sections[s.id] = emptySection(); });
   return {
-    user: { ...DEFAULT_SUPER_ADMIN, loginAt: new Date().toISOString() },
+    user: null,
     sections,
     finalExam: { attempted: false, passed: false, score: null, questionIds: [], answers: {} },
     moduleCompleted: false,
@@ -57,13 +57,12 @@ function loadState() {
       }
     });
 
-    // Ensure user has role and name properly set, default to Super Admin if missing
-    let user = parsed.user;
-    if (!user || !user.name || user.name === 'Team Member' && !user.role) {
-      user = { ...DEFAULT_SUPER_ADMIN, loginAt: new Date().toISOString() };
-    } else if (!user.role) {
-      user.role = user.name.toLowerCase().includes('admin') ? 'super-admin' : 'team-member';
-      user.department = user.role === 'super-admin' ? 'All Operations' : 'Retail Operations';
+    let user = parsed.user || null;
+    if (user && typeof user === 'object') {
+      if (!user.role) {
+        user.role = user.name?.toLowerCase().includes('admin') ? 'super-admin' : 'team-member';
+        user.department = user.role === 'super-admin' ? 'All Operations' : 'Retail Operations';
+      }
     }
 
     return { ...def, ...parsed, user };
