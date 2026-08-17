@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ng-learn/public/NG-LOGO-BLUE.png" alt="Nurturing Green Logo" width="340" />
+  <img src="public/NG-LOGO-BLUE.png" alt="Nurturing Green Logo" width="340" />
 </p>
 
 <h1 align="center">NG Learn — Internal Operations &amp; Training Architecture</h1>
@@ -45,42 +45,42 @@ The portal digitizes and structures **34 cross-domain process workflows** into i
 ### 1. Unified Login Portal & Brand Entry
 Features official **`NG-LOGO-WHITE.png`** on the dark emerald gradient panel and **`NG-LOGO-BLUE.png`** on the sign-in card with instant profile role toggling (*Super Admin* vs. *Team Member*).
 
-![Login Portal](ng-learn/public/media/login_page_1786949585340.png)
+![Login Portal](public/media/login_page_1786949585340.png)
 
 ---
 
 ### 2. Super Admin Dashboard (Executive Matrix)
 High-contrast operations KPIs (*Active Modules 1/5, Sub-Flows 34, Coverage 100%*), multi-department filter tabs (*All, Retail, Q-Commerce, Supply Chain, NPD, E-Commerce*), and course pipeline cards.
 
-![Super Admin Dashboard](ng-learn/public/media/super_admin_dash_1786949621350.png)
+![Super Admin Dashboard](public/media/super_admin_dash_1786949621350.png)
 
 ---
 
 ### 3. Team Member Dashboard (Assigned: Retail Operations)
 A distraction-free, focused learning cockpit displaying the assigned **Retail Operations SOP**, interactive radial completion meter, 4-pillar cards, and 7-section progress checklist.
 
-![Team Member Dashboard](ng-learn/public/media/team_member_dash_1786949785184.png)
+![Team Member Dashboard](public/media/team_member_dash_1786949785184.png)
 
 ---
 
 ### 4. Retail Operations Module & In-Module SOP Suite
 The complete 7-section curriculum syllabus with progress ring on the right, final exam gate, and **5 downloadable PDF SOP reference guides**.
 
-![Retail Operations Module View](ng-learn/public/media/retail_ops_sop_1786949705642.png)
+![Retail Operations Module View](public/media/retail_ops_sop_1786949705642.png)
 
 ---
 
 ### 5. Interactive SOP Preview & 100% PDF Downloads
 Every operational procedure includes a modal preview showing formulas, SLA tables, visual hierarchies, and a **1-click PDF download**.
 
-![SOP Preview Modal](ng-learn/public/media/sop_preview_modal_1786948811697.png)
+![SOP Preview Modal](public/media/sop_preview_modal_1786948811697.png)
 
 ---
 
 ### 6. Seamless Dark Mode (Obsidian Emerald Theme)
 Dynamic theme engine adapting typography, glassmorphism, and brand logos to pure white and luminous emerald (`#00E5BA`).
 
-![Super Admin Dark Mode](ng-learn/public/media/super_admin_dark_mode_1786948786551.png)
+![Super Admin Dark Mode](public/media/super_admin_dark_mode_1786948786551.png)
 
 ---
 
@@ -151,13 +151,10 @@ All downloadable resources in NG Learn are generated and served strictly in **PD
 ### Installation & Local Setup
 
 ```bash
-# 1. Navigate to the web application directory
-cd ng-learn
-
-# 2. Install dependencies
+# 1. Install dependencies
 npm install
 
-# 3. Start the local development server
+# 2. Start the local development server
 npm run dev
 ```
 
@@ -178,49 +175,52 @@ npm run preview
 ## 📁 Repository Structure
 
 ```
-TRIAL_PROCESS_FLOW/
-├── README.md                          # Root Documentation
-├── Project Brain v2.docx.md           # Engineering runtime architecture
-├── Nurturing green.csv                # Master Lucidchart shape metadata
-├── Nurturing green.json               # Master Lucidchart layout schema
-├── Nurturing green.svg                # Full system vector export
-└── ng-learn/                          # Main React Web Application
-    ├── index.html                     # HTML entry with fonts & favicon
-    ├── package.json                   # Dependencies (React, Vite, jsPDF)
-    ├── public/
-    │   ├── NG-LOGO-BLUE.png           # Official Blue Brand Logo
-    │   ├── NG-LOGO-WHITE.png          # Official White Brand Logo
-    │   ├── media/                     # Application screenshots & demos
-    │   └── resources/                 # Downloadable PDF SOP Toolkits
-    │       ├── Retail-MDQ-Indent-Matrix.pdf
-    │       ├── Planogram-Compliance-RTV-Guide.pdf
-    │       ├── Store-Staff-Hiring-Audit-Rubric.pdf
-    │       ├── Retail-Ops-Master-Glossary.pdf
-    │       └── Nurturing-Green-Master-Process-Map.pdf
-    ├── scripts/
-    │   └── generate-pdf-resources.js  # jsPDF build script
-    └── src/
-        ├── App.jsx                    # Root layout, Header & Role Switcher
-        ├── main.jsx                   # React DOM entry
-        ├── styles.css                 # Theme tokens, dark mode, luxury CSS
-        ├── components/
-        │   ├── BrandLogo.jsx          # Adaptive Brand Logo component
-        │   ├── ModulesCatalog.jsx     # Dual Super Admin & Member Dashboard
-        │   ├── ModuleDashboard.jsx    # Retail Ops Syllabus & In-Module SOPs
-        │   ├── SectionViewer.jsx      # Step-by-step interactive lesson viewer
-        │   ├── QuizComponent.jsx      # Section knowledge checkpoint quizzes
-        │   ├── FinalExam.jsx          # 25-Question Final Certification Exam
-        │   ├── CompletionPage.jsx     # Verified Completion Certificate
-        │   ├── ResourceModal.jsx      # Interactive SOP Preview & PDF Download Modal
-        │   ├── Login.jsx              # Dual-role entry portal
-        │   └── icons.jsx              # Custom SVG icon set
-        ├── data/
-        │   ├── retail-ops-sections.js # 7-section syllabus & lesson content
-        │   ├── retail-ops-quizzes.js  # Section quiz question banks
-        │   ├── final-exam-questions.js# 25 certification exam questions
-        │   └── retail-ops-resources.js# SOP resource metadata & formulas
-        └── lib/
-            └── store.jsx              # LocalStorage state management
+.
+├── vercel.json                    # Vercel SPA routing configuration
+├── index.html                     # HTML entry with fonts & favicon
+├── package.json                   # Dependencies (React, Vite, jsPDF)
+├── vite.config.js                 # Vite bundler configuration
+├── docs/
+│   └── architecture/              # Master Lucidchart exports & data
+│       ├── Nurturing green.csv
+│       ├── Nurturing green.json
+│       └── Nurturing green.svg
+├── public/
+│   ├── _redirects                 # Netlify / Cloudflare SPA routing
+│   ├── NG-LOGO-BLUE.png           # Official Blue Brand Logo
+│   ├── NG-LOGO-WHITE.png          # Official White Brand Logo
+│   ├── media/                     # Application screenshots & demos
+│   ├── videos/                    # Canonical video lectures (1-4.mp4)
+│   └── resources/                 # Downloadable PDF SOP Toolkits
+│       ├── Retail-MDQ-Indent-Matrix.pdf
+│       ├── Planogram-Compliance-RTV-Guide.pdf
+│       ├── Store-Staff-Hiring-Audit-Rubric.pdf
+│       ├── Retail-Ops-Master-Glossary.pdf
+│       └── Nurturing-Green-Master-Process-Map.pdf
+├── scripts/
+│   └── generate-pdf-resources.js  # jsPDF build script
+└── src/
+    ├── App.jsx                    # Root layout, Header & Role Switcher
+    ├── main.jsx                   # React DOM entry
+    ├── styles.css                 # Theme tokens, dark mode, luxury CSS
+    ├── components/
+    │   ├── BrandLogo.jsx          # Adaptive Brand Logo component
+    │   ├── ModulesCatalog.jsx     # Dual Super Admin & Member Dashboard
+    │   ├── ModuleDashboard.jsx    # Retail Ops Syllabus & In-Module SOPs
+    │   ├── SectionViewer.jsx      # Step-by-step interactive lesson viewer
+    │   ├── SectionQuiz.jsx        # Section knowledge checkpoint quizzes
+    │   ├── FinalExam.jsx          # 25-Question Final Certification Exam
+    │   ├── CompletionPage.jsx     # Verified Completion Certificate
+    │   ├── ResourceModal.jsx      # Interactive SOP Preview & PDF Download Modal
+    │   ├── Login.jsx              # Dual-role entry portal
+    │   └── icons.jsx              # Custom SVG icon set
+    ├── data/
+    │   ├── retail-ops-sections.js # 7-section syllabus & lesson content
+    │   ├── retail-ops-questions.js# Section quiz question banks
+    │   ├── retail-ops-resources.js# SOP resource metadata & formulas
+    │   └── final-exam-questions.js# 25 certification exam questions
+    └── lib/
+        └── store.jsx              # LocalStorage state management
 ```
 
 ---

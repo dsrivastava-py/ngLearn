@@ -1,0 +1,3520 @@
+{
+  "count": 390,
+  "byKind": {
+    "flow": 31,
+    "step": 309,
+    "note": 50
+  },
+  "items": [
+    {
+      "rowId": "50",
+      "shapeId": "Cr79fcS4JijS",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Passed/Rejected",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "51",
+      "shapeId": "cr79CfS5R2pS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Inspection / QC Check - Specs, Quality and Quantity",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "52",
+      "shapeId": "Bp79P1aOse-l",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Gate Entry > New > Voucher Type > Save",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "53",
+      "shapeId": "Nx79uY_CAZUr",
+      "name": "Process",
+      "kind": "step",
+      "text": "Creation of Debit Note for every rejected and Short quantity",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "54",
+      "shapeId": "bz79DS8M7d.1",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physcially move to Farm Wastage Store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "55",
+      "shapeId": "QT~_-Ht6PtxR",
+      "name": "Text",
+      "kind": "note",
+      "text": "Finance",
+      "extraText": [],
+      "containedBy": "42"
+    },
+    {
+      "rowId": "56",
+      "shapeId": "mU~_cJ2I~ott",
+      "name": "Text",
+      "kind": "note",
+      "text": "HR and Admin",
+      "extraText": [],
+      "containedBy": "43"
+    },
+    {
+      "rowId": "57",
+      "shapeId": "GV~_~dcuI3aS",
+      "name": "Text",
+      "kind": "note",
+      "text": "logistic",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "58",
+      "shapeId": "TO1~-udDQsNC",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sales Invoice at nominal value like Plants",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "59",
+      "shapeId": "WO1~HuxVJGcH",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sale invoice at Scrap value like packing and broken pots",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "60",
+      "shapeId": "YO1~gEH6QjGV",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sales invoice at realisable value like Pots with scratches, Potting mix with printing and packing defects.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "61",
+      "shapeId": "DIua4E~Wkk.j",
+      "name": "Process",
+      "kind": "step",
+      "text": "Prepare a Scrap bag",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "107",
+      "shapeId": "lK6cvktEs11L",
+      "name": "Process",
+      "kind": "step",
+      "text": "Vehicle Arrived at Homecenter",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "108",
+      "shapeId": "MK6c8~JvpBce",
+      "name": "Process",
+      "kind": "step",
+      "text": "Global Count",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "109",
+      "shapeId": "YK6c6~6uWSXu",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Will be performed by NG's . Write global count on Invoice (Transporter's copy) To be filled in every case even if there is no discrepency.",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "110",
+      "shapeId": "MM6cYYXANUuA",
+      "name": "Process",
+      "kind": "step",
+      "text": "Product will be handed over by NG to Homecente",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "111",
+      "shapeId": "NM6c_7hrwb2a",
+      "name": "Process",
+      "kind": "step",
+      "text": "Vehicle will deliver this Invoice's Physcial copy to warehouse",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "112",
+      "shapeId": "7N6cdJFvAoYe",
+      "name": "Process",
+      "kind": "step",
+      "text": "Homecenter will provide GRN Copy by End of Day or next day.",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "113",
+      "shapeId": "iP6ciBSoo9Hb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter details in Google form by CCA",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "115",
+      "shapeId": "TRcd3mtHzQXn",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": "44"
+    },
+    {
+      "rowId": "116",
+      "shapeId": "jhueP1zTHi0Y",
+      "name": "Process",
+      "kind": "step",
+      "text": "Approval of Finance and Warehouse head",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "117",
+      "shapeId": "djueFwnfG5VN",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Finance executive will check physically either electronically or physcially. Manager-Finance will approve the mail. CEO shall be in CC",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "118",
+      "shapeId": "WJifgfBS~6Wr",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "SKU & Channel level Sales planing Monthly SKU level Target - Done NPD SKU level target - Pending BD SKU level target -Done Target achievement AOP (only a of 1st point - above other than BD & NPD) Online Master sheet Projecting sales for particular month RTV RCV (Replication Cat. Visibility) Availability/Regiona in Stock (RIS) for amazon Quick come - Done FR - Pending DOC - Pending we dont generally want 100% avalability / fill rate as it might lead to RTV catalogue Pricing - Done Discount - Primary - Done Supression - Secondary (AA content) - Done Review management Artifically Calls to remove negative Push to write review NPS reviews - to eradicate future negative SEO Quick Com - WIP Ecom - Not yet started Tagging (correct product on repective keyword) Keyword level eg - Safed keeda killer - it should show our plant protector Category Level Visibility (GV - Glance View) Organic Banner Category Tagging LIKE GIFTING /CHARISTMAS BANNER- WE SHOULD BE ON THAT - Mail by yash - same for all quick com - Zepto insta and blinkit Keyword tagging - Trial and test - mail by yash Deals of the day Category manager do tell that if you will give that much discount we will give you visibility in deal of the day Monthly sale event like Maxx saver of instamart Steal deals Paid Performance Marketing",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "282",
+      "shapeId": "f6Rga~Y1GKZ-",
+      "name": "Text",
+      "kind": "note",
+      "text": "Sales",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "283",
+      "shapeId": "CbSgZ~DDrHYR",
+      "name": "Process",
+      "kind": "step",
+      "text": "Replication",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "284",
+      "shapeId": "9bSgIv4SK1Wb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Pricing Check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "285",
+      "shapeId": "hcSg6hmGggRO",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "286",
+      "shapeId": "0cSgxFfnG10O",
+      "name": "Process",
+      "kind": "step",
+      "text": "DOC",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "287",
+      "shapeId": "IdSgbj3ybEZz",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "288",
+      "shapeId": "_eSgco7N4NO_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Catalog",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "289",
+      "shapeId": "olSgnGe-7EG5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Discount",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "290",
+      "shapeId": "IlSged24R0t1",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "291",
+      "shapeId": "IlSgSLg9GeZA",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "292",
+      "shapeId": "dmSgO53JbxKS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Supression Check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "293",
+      "shapeId": "dmSgmYutjz2l",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "294",
+      "shapeId": "dmSgezXZm.KF",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "295",
+      "shapeId": "ouSgTR8G0dQ6",
+      "name": "Process",
+      "kind": "step",
+      "text": "Availability",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "296",
+      "shapeId": "vuSg_.iDrskd",
+      "name": "Process",
+      "kind": "step",
+      "text": "Fill Rate Check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "297",
+      "shapeId": "qASgvn1hON77",
+      "name": "Process",
+      "kind": "step",
+      "text": "Review",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "298",
+      "shapeId": "qASg-lfj0jrL",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "299",
+      "shapeId": "qASgXUd3zV0S",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "300",
+      "shapeId": "VASg.bwusZiB",
+      "name": "Process",
+      "kind": "step",
+      "text": "Visibility",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "301",
+      "shapeId": "bBSgF7RtS5el",
+      "name": "Process",
+      "kind": "step",
+      "text": "Organic",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "302",
+      "shapeId": "UBSgKJGCzVR9",
+      "name": "Process",
+      "kind": "step",
+      "text": "Paid",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "303",
+      "shapeId": "_JSgCZKULgTe",
+      "name": "Process",
+      "kind": "step",
+      "text": "Rating Check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "304",
+      "shapeId": "_JSgNuJW2Hq.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "305",
+      "shapeId": "_JSgC1ciNvK8",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "306",
+      "shapeId": "lUSg3IXvxohr",
+      "name": "Process",
+      "kind": "step",
+      "text": "LM O2D",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "307",
+      "shapeId": "lUSgEWwB4DGg",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "308",
+      "shapeId": "rVSgKzMByK7J",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "309",
+      "shapeId": "rVSgjp7dqi8Y",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "310",
+      "shapeId": "AVSgJ4dcXN7N",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "311",
+      "shapeId": "AVSgVX4LjTBQ",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "312",
+      "shapeId": "DVSgNxZEq0.I",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "313",
+      "shapeId": "DVSgi8oaiekO",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "314",
+      "shapeId": "g6SgSHsXbaN3",
+      "name": "Process",
+      "kind": "step",
+      "text": "Keyword/Category Check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "315",
+      "shapeId": "D7SggVOm5ltX",
+      "name": "Process",
+      "kind": "step",
+      "text": "Deals",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "348",
+      "shapeId": "e~iitCVUaVa3",
+      "name": "Process",
+      "kind": "step",
+      "text": "Angad",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "349",
+      "shapeId": "u~iiiDvnTXzG",
+      "name": "Process",
+      "kind": "step",
+      "text": "done with pricing",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "350",
+      "shapeId": "tajiMoaM-ixn",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sid",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "351",
+      "shapeId": "zajihu2xtpxI",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sid",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "352",
+      "shapeId": "ibji45N8~rR5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Same as Quick com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "353",
+      "shapeId": "vbjiE8PPv68~",
+      "name": "Process",
+      "kind": "step",
+      "text": "Connect with Pincode wise availability",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "354",
+      "shapeId": "5cji3V1jmkaU",
+      "name": "Process",
+      "kind": "step",
+      "text": "covered in discount",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "355",
+      "shapeId": "E_jiiuhU_hQK",
+      "name": "Process",
+      "kind": "step",
+      "text": "Logon ERP",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "356",
+      "shapeId": "lakiILtGjYoP",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Vendor Master",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "357",
+      "shapeId": "ickivzP761hq",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click New",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "358",
+      "shapeId": "Wckixm6wT4e.",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Name Name in tally (same as 1st) Print Name (same as 1st) Address Pincode GST Type Regular - unregular Non register - unregistered State Country City (if not in dropdown create using city master) Mail Id Phone Number GSTIN No. Tax details PAN No. Default tax template Save Note :- We can create customer account of same party by simply tick on \"treat as customer\" option",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "359",
+      "shapeId": "mpkix-0-xL5t",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter/Modify follwing details",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "360",
+      "shapeId": "GqkiawQHxGC-",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Edit",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "361",
+      "shapeId": "yrkitTLMH.VZ",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Save",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "362",
+      "shapeId": "ypliDP~JhFAV",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Need to link in other warehouses?",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "363",
+      "shapeId": "hqli4LKtX90Z",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open \"Party Branch Link Master (Branch wise)",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "364",
+      "shapeId": "zqlid2WyBwSr",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "No Action required",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "365",
+      "shapeId": "7qliVezGyPkR",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select Branch in which you want to add an existing vendor",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "366",
+      "shapeId": "dxlilMs.LpAb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Tick the respective vendor",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "367",
+      "shapeId": "PyliFCl0Y5Kw",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Vendor Created in that branch",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "401",
+      "shapeId": "LPyjyuygbY1M",
+      "name": "Process",
+      "kind": "step",
+      "text": "Take DOC from DOC file",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "429",
+      "shapeId": "4lplt_ijuAkN",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open ERP",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "430",
+      "shapeId": "4lplHXAHbe~m",
+      "name": "Process",
+      "kind": "step",
+      "text": "Pan India Outward sheet",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "431",
+      "shapeId": "4lpl5VCnGBbL",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Is BOM exist for items in this PO.",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "432",
+      "shapeId": "4lplno0tZ.5s",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Select approriate period Copy the sales order number",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "433",
+      "shapeId": "ArplLBo_YN7P",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select - \"store Requisition for production\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "434",
+      "shapeId": "bNFlFNtg9bGk",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Batch card > New",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "447",
+      "shapeId": "tvIlz4T94LXZ",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective Challan no. > Authorise",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "451",
+      "shapeId": "SHxmB~.gdDx0",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter Customer Name > Sales order No. >Item Name > Qty (auto fetched from SO) > Store for stock - All > Stage - Production floor",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "452",
+      "shapeId": "EOxmeSQHufiy",
+      "name": "Process",
+      "kind": "step",
+      "text": "Now enter item code of RM item and qty that you want to repack against that item",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "453",
+      "shapeId": "JQxmDYZPCv2B",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Sales order has remarks which contain details of RM that need to ship under this general code. We will enter main plant, pot etc. in this. Under this process we are basically creating FG by mannualy using a BOM for one time. We can do it for one general code at one time. We can add different RMs in one general code at same time. For every Item in SO, seprate batch card need to be generate.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "454",
+      "shapeId": "QRxmCiWHKVHS",
+      "name": "Process",
+      "kind": "step",
+      "text": "click Save > Authorize",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "464",
+      "shapeId": "9IAmDd93n5Q.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Store requisition against batch card",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "465",
+      "shapeId": "OLAmT.9EuUD.",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "In earlier steps we have linked several raw material into one general code. Now we are requesting this material from store department. Done seprately for each batch card.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "466",
+      "shapeId": "A7Pm~ARd3kCv",
+      "name": "Process",
+      "kind": "step",
+      "text": "New > Stage - Production floor > Select batch > Save",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "467",
+      "shapeId": "y9Pmg.Kpv2O-",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "This will show all batches which are lying in production floor.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "468",
+      "shapeId": "hfQmqAUv9.dZ",
+      "name": "Process",
+      "kind": "step",
+      "text": "click Save > Authorize",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "487",
+      "shapeId": "0wWmTmBeDtqH",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open MRN (Material receipt note) > select challan no.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "488",
+      "shapeId": "MMWmutAHEiIU",
+      "name": "Process",
+      "kind": "step",
+      "text": "New Listing",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "489",
+      "shapeId": "hNWm-MCE7e58",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "490",
+      "shapeId": "hNWmeB.xT1by",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "505",
+      "shapeId": "RXWmn1Fb4PF3",
+      "name": "Process",
+      "kind": "step",
+      "text": "O2C Process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "507",
+      "shapeId": "RXWmt45XF1bi",
+      "name": "Process",
+      "kind": "step",
+      "text": "Retail",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "509",
+      "shapeId": "RXWmGPdvWaaW",
+      "name": "Process",
+      "kind": "step",
+      "text": "Quick Commerce",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "651",
+      "shapeId": "Qq9mKiHO5w4z",
+      "name": "Process",
+      "kind": "step",
+      "text": "SLA - Alternative days within 45 mins",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "652",
+      "shapeId": "Qq9mRNVyywLj",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Assistant Manager (Quick Comm) I Secondary Responsibility - AGM (Online) (Sumit)",
+      "extraText": [],
+      "containedBy": "6|7"
+    },
+    {
+      "rowId": "655",
+      "shapeId": "QZqn87rPI7MU",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Fill following Party Name Bill No. Bill Date (default it is current date but should be changed if required) Vehicle Number Driver's Name Possible Voucher Type Delivery failure RTV Fresh Purchase Sample RGP Stock transfer If any gate entry is entered delayed, it should be mentioned in remarks.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "656",
+      "shapeId": "3krnF5R6KQt0",
+      "name": "Database",
+      "kind": "step",
+      "text": "GE no. generatd > Write it on Invoice",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "657",
+      "shapeId": "tnrnvh7w7Y51",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Gate entry register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "658",
+      "shapeId": "aNrn_9SYi_7s",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physcial count > write this on invoice / Credit Note",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "659",
+      "shapeId": "-ZrnLF-gtaTc",
+      "name": "Database",
+      "kind": "step",
+      "text": "Challan no. generatd > Write it on Invoice",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "660",
+      "shapeId": "m0rnGkbT5h68",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Challan register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "661",
+      "shapeId": "Y3rnREI15S5~",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Inward challan > New > Select Gate entry No. >",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "662",
+      "shapeId": "Y3rncrVR6VxP",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "It will show all Pending PO's against that party. Select the PO of which this material is received. Enter Billed Base qty (as shown on invoice) Billed Rate Received base qty (physical count) Received based qty will be filled automatically with billed qty but if there is any difference, then we should mannually correct this.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "663",
+      "shapeId": "J8tnUraSrQNB",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "This will show default store name (which is linked with that item code) We can change store name but only in unusual circumstance after prior approval of WH head.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "664",
+      "shapeId": "n_tnOPdS2cKM",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective MRN no. > Authorise",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "665",
+      "shapeId": "n_tnSjZ1_VtP",
+      "name": "Database",
+      "kind": "step",
+      "text": "MRN no. generatd > Write it on Invoice",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "666",
+      "shapeId": "n_tndJD7qRwQ",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "MRN register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "667",
+      "shapeId": "V~tnfRPRrP2J",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Inspection after MRN > New > MRN No. > Approved qty > Rej Reason > Save",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "668",
+      "shapeId": "VaunM1u4PNkg",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Four possible cases Pass Feedback Refurb Rejection Pass and feedback both are to be considered as Approved. Fill approved qty only, system will automatically calcuate rejected qty. Fill Rejection reason from drop down only.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "669",
+      "shapeId": "vgunUoksK7Bi",
+      "name": "Database",
+      "kind": "step",
+      "text": "IAM no. generatd > Write it on Invoice",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "670",
+      "shapeId": "vgunD3hOmN4R",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "IAM register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "671",
+      "shapeId": "PiunZS91nY_9",
+      "name": "Display",
+      "kind": "step",
+      "text": "Now, Inventory is live in ERP",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "673",
+      "shapeId": "Bwwn_W3dZLoZ",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Debit note shall be raised for Qty. with are rejected in Inspection after MRN. Qty difference between Billed and Received. Debit should be made only of Value and not of qty because still it is physcially lying in NG's area.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "674",
+      "shapeId": "pHOn4TH1X3-W",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Mention following on bag Name of bag - Date (DDMMYY) Quantity STN number Warehouse head will do sample check either physcially or electronically. Then only will approve the mail and now he will seek apporval from finance dept.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "675",
+      "shapeId": "Nz4njo~7kdVU",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "GE date should be auto select as per current date. Can we do GE through mobile. (by gate guard). - no Offline gate resgiter should also be maintained. Make vehicle number and transporter name mandatory. - yes possible PO selection should be mandotory. Pranav will share transporter list for inward outward boht to sandeep and he will update Category Self Vendor vehicle Transport list In case of PTL mention AWB instead of Vehicle number. Un-neccessary authorisation to be removed. Gate entry (WH manager) Can we remove MRN Parnav will give QC1 rejection for dropdown. (multi select) PO number in Inspection after mrn",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "681",
+      "shapeId": "UJZrU8Zm7O-I",
+      "name": "Preparation",
+      "kind": "step",
+      "text": "Prepare Online Consol FG Sales Projection",
+      "extraText": [],
+      "containedBy": "679|680"
+    },
+    {
+      "rowId": "682",
+      "shapeId": "UJZrRwDywhSM",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "SKUWISE QTY :- M+2 (V3) m+3 (V2) M+4 (v1) Actual Sale for M-1 (along with Revenue)",
+      "extraText": [],
+      "containedBy": "679|680"
+    },
+    {
+      "rowId": "685",
+      "shapeId": "UJZrHwdJdy.c",
+      "name": "Text",
+      "kind": "note",
+      "text": "Online - Quick Com",
+      "extraText": [],
+      "containedBy": "679|680"
+    },
+    {
+      "rowId": "687",
+      "shapeId": "UJZr0mETFhrt",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "SKUWISE QTY :- M+2 (V3) m+3 (V2) M+4 (v1) Actual Sale for M-1 (along with Revenue)",
+      "extraText": [],
+      "containedBy": "679|686"
+    },
+    {
+      "rowId": "688",
+      "shapeId": "UJZrh5TJ1R9R",
+      "name": "Preparation",
+      "kind": "step",
+      "text": "Prepare Retail FG Sales Projection",
+      "extraText": [],
+      "containedBy": "679|686"
+    },
+    {
+      "rowId": "691",
+      "shapeId": "UJZrQi-SdU_0",
+      "name": "Text",
+      "kind": "note",
+      "text": "Retail - Home-center, SS and Reliance",
+      "extraText": [],
+      "containedBy": "679|686"
+    },
+    {
+      "rowId": "693",
+      "shapeId": "UJZrx-0ZT_sW",
+      "name": "Preparation",
+      "kind": "step",
+      "text": "Prepare Online Consol FG Sales Projection",
+      "extraText": [],
+      "containedBy": "679|692"
+    },
+    {
+      "rowId": "694",
+      "shapeId": "UJZrx1W3zYbN",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "SKUWISE QTY :- M+2 (V3) m+3 (V2) M+4 (v1) Actual Sale for M-1 (along with Revenue)",
+      "extraText": [],
+      "containedBy": "679|692"
+    },
+    {
+      "rowId": "697",
+      "shapeId": "UJZrwnB-.Aeu",
+      "name": "Text",
+      "kind": "note",
+      "text": "Online - Ecom",
+      "extraText": [],
+      "containedBy": "679|692"
+    },
+    {
+      "rowId": "698",
+      "shapeId": "UJZrBl.kA8-.",
+      "name": "Block",
+      "kind": "step",
+      "text": "by 15th of Every Month",
+      "extraText": [],
+      "containedBy": "679|692"
+    },
+    {
+      "rowId": "699",
+      "shapeId": "UJZr5s6yzQbE",
+      "name": "Block",
+      "kind": "step",
+      "text": "by 15th of Every Month",
+      "extraText": [],
+      "containedBy": "679|680"
+    },
+    {
+      "rowId": "700",
+      "shapeId": "UJZrm2jdiFLe",
+      "name": "Block",
+      "kind": "step",
+      "text": "by 15th of Every Month",
+      "extraText": [],
+      "containedBy": "679|686"
+    },
+    {
+      "rowId": "701",
+      "shapeId": "UJZr~QdxU7bk",
+      "name": "Block",
+      "kind": "step",
+      "text": "Paste DRR, Fill rate and Avail. of last month in \"Online Sales projection\" from Online Review sheet",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "702",
+      "shapeId": "UJZrU_9WSe~m",
+      "name": "Preparation",
+      "kind": "step",
+      "text": "Calculation of Sales Projection",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "703",
+      "shapeId": "UJZrsILvx_d7",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "This need to be done for :- M+2 (V3) M+3 (V2) M+4 (V1) Calculate weekly Best BAU DRR of each month. Growth due to better fill rate/ Availability Platform growth (Example - 5%, 10% etc) Increase in DRR due to business development such as onboarding new dark stores. Growth due to additional budget or efficiency of advertisement. Add additional DRR for Event or Sale. RTV buffer (only applicable in plants) :- %=RTV/Total invoicing Multiply RTV% with (2+3+4+5) Final Sale Projection = 2+3+4+5+6",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "704",
+      "shapeId": "UJZrm1UJ0u9T",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Assistant Manager Ecom I Secondary Responsibility - AGM Online sales",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "705",
+      "shapeId": "UJZr3yaYP_Hf",
+      "name": "Block",
+      "kind": "step",
+      "text": "Retail sales projection",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "706",
+      "shapeId": ".j0r1ecDEvrY",
+      "name": "Process",
+      "kind": "step",
+      "text": "Preparation of sales projection by Sales team",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "708",
+      "shapeId": "RH0rS.-5r7Te",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Split projected qty. into regions :- North, South and west. Calculate region wise sales mix using last 3 months sale. Should be calculaed for each sales partner seprately. Weather condition and inactive SKU should be considered while calculating region wise projected sales quantity.",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "714",
+      "shapeId": "ojTsAMcm6.iv",
+      "name": "Block",
+      "kind": "step",
+      "text": "SLA- Earlier of 2 hours or End of day",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "715",
+      "shapeId": "zhUs3aqeu4ma",
+      "name": "Process",
+      "kind": "step",
+      "text": "QC form",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "716",
+      "shapeId": "w5Ws2hAA7IWc",
+      "name": "Preparation",
+      "kind": "step",
+      "text": "Calculation of Sales Projection",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "717",
+      "shapeId": "w5WsUbkqqXRp",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "This need to be done for :- M+2 (V3) M+3 (V2) M+4 (V1) Calculate weekly Best BAU DRR of each month. Platform growth (Example - 5%, 10% etc) Increase in DRR due to business development such as onboarding new stores. Growth due to additional advertisement. Add additional DRR for Event or Sale. RTV buffer :- %=RTV/Total invoicing Multiply RTV% with (3+4+5) Final Sale Projection = 2+3+4+5+6",
+      "extraText": [],
+      "containedBy": "679"
+    },
+    {
+      "rowId": "718",
+      "shapeId": "gn_s0Ze7qxGW",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Why so no. is not getting auto popullate in store requisition Why we are not following Outward inspection.",
+      "extraText": [],
+      "containedBy": "43"
+    },
+    {
+      "rowId": "719",
+      "shapeId": "Bu_s4Yshc3bI",
+      "name": "Database",
+      "kind": "step",
+      "text": "Store requisition no. generatd > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "720",
+      "shapeId": "nw_sdo_Bp-82",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective requisition no. > Authorise",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "721",
+      "shapeId": "Hy_sbhKQcdCW",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open \"Store Issue\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "722",
+      "shapeId": "nE_sUO_dxZyo",
+      "name": "Database",
+      "kind": "step",
+      "text": "Issue no. generatd > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "723",
+      "shapeId": "nE_sO3Af.EnD",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Issue register",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "724",
+      "shapeId": "2L_sMUob674o",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter Consumption detail",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "725",
+      "shapeId": "oP_s10UiEtTw",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Need to do item wise. Just click on consumed qty > Enter > OK. > Save Now, RM is converted into FG.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "726",
+      "shapeId": "9V_svYhvbvgi",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open \"Delivery Note\" > New > Select appropriate channel",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "727",
+      "shapeId": "MW_sAe.78tDV",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Check Finished good available in stock?",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "728",
+      "shapeId": "IH_szROZqcij",
+      "name": "Process",
+      "kind": "step",
+      "text": "Tick \"Is store\"> Select - Destination Store > Finished Good > Select respective Sales order",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "729",
+      "shapeId": "~E_sYRB8liYX",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open - \"Production and Movement\" > New >",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "730",
+      "shapeId": "2F_sxGprRraS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select - \"Online production and movement\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "731",
+      "shapeId": "9V_sP~cSk8RY",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select customer name > Store name \"Finished good\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "732",
+      "shapeId": "9V_sTnsw2TZj",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open SO against that party of which FG is ready will appear now > Select SO against which material to be sent.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "733",
+      "shapeId": "9V_siyyzw~Yl",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter quantities that you want to deliver > save",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "734",
+      "shapeId": "Bu_s-DMP3RQx",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Store requisition register",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "735",
+      "shapeId": "5c_sl2XC2.w3",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Stage - Production floor. It will show qty need to produce to fullfill this SO. We can select Store from which material required to issue. Then > Click on verify all. > save. Material shall be issued for all items that need to produce to fulfill all SO need to outward",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "736",
+      "shapeId": "p2-sn0t4OyzX",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open \"Store requisiton from Stage\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "737",
+      "shapeId": "orplZmmbQPnm",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select - \"Online Store requistion\"",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "738",
+      "shapeId": "Mz_sqDPojDoZ",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "select Voucher name - Online/Retail (Store issue) Select store from which material to be issued. Select respective requisition number. Add Issue qty. It cannot be more than pending qty. In case where there is two store involved in single requisition, then material need to be issue through multiple store issue.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "739",
+      "shapeId": "0Z_sxavEG1fZ",
+      "name": "Database",
+      "kind": "step",
+      "text": "Production no. generatd > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "740",
+      "shapeId": "0Z_szV-Msvja",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Production register",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "741",
+      "shapeId": "qa.sQf.dvTD1",
+      "name": "Database",
+      "kind": "step",
+      "text": "Delivery note no. generated > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "742",
+      "shapeId": "qa.sN_d2arip",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Delivery Note register",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "743",
+      "shapeId": "qa.sX0-VnK8V",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective delivery note no. > Authorise",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "744",
+      "shapeId": "6c.smaV_TDBS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Sale Invoice > New",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "745",
+      "shapeId": "od.s~wV3J3~u",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Select Customer name. Click Delivery Note list. > This will reflect all delivery note against which invoicing is pending.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "746",
+      "shapeId": "oh.sC2p2Fzcz",
+      "name": "Process",
+      "kind": "step",
+      "text": "Check Price and taxation",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "747",
+      "shapeId": "9j.sEQM2fcD0",
+      "name": "Database",
+      "kind": "step",
+      "text": "Invoice no. generated > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "748",
+      "shapeId": "9j.s9I13ei2o",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Sales register",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "749",
+      "shapeId": "9j.sjPjZ_I3~",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective Invoice no. > Authorise",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "750",
+      "shapeId": "6k.sAsaH.jcH",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Sales Invoice > View > Select Invoice Number",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "751",
+      "shapeId": "Kl.s2P~e2rxd",
+      "name": "Process",
+      "kind": "step",
+      "text": "Generate E-Invoice and E-way Bill",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "752",
+      "shapeId": "7r.sV917ydEA",
+      "name": "Process",
+      "kind": "step",
+      "text": "Go to \"Billing to shipping info\" > Select appropriate delivery location > Save",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "753",
+      "shapeId": "1j.soTL1gMon",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Go to Other info. Enter follwing EInv Supp type Dispatch from state Vehicle number Transaction type Vehicle type Eway- transaction type Mode of transportation Place of consignor (Pincode) Place of conisgnee (pincode) Date of eway bill Transporter ID, if any available",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "754",
+      "shapeId": "0A.sQpjC9Oh~",
+      "name": "Process",
+      "kind": "step",
+      "text": "Tick online Geneway > Generate eway.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "755",
+      "shapeId": "AC.s_Sg4ybu8",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Sales Invoice > View > select sales invoice no. > Print invoice and Eway bill both",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "756",
+      "shapeId": "7satB21WU3qv",
+      "name": "Database",
+      "kind": "step",
+      "text": "Batch No. generated > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "757",
+      "shapeId": "vHat5l~HelRE",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Pending batch card report",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "758",
+      "shapeId": "cMatTyixwC7Z",
+      "name": "Database",
+      "kind": "step",
+      "text": "Store requisition no. generatd > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "759",
+      "shapeId": "Z5at8-H995zD",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select Production and Movement > New > Batch card no.",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "760",
+      "shapeId": "F7atYj9YQYVO",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "BOM exist?",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "761",
+      "shapeId": "RgdtEdTaw1xr",
+      "name": "Process",
+      "kind": "step",
+      "text": "Print Sales order",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "762",
+      "shapeId": "xjutKxIWHEoq",
+      "name": "Process",
+      "kind": "step",
+      "text": "Generate Gate pass",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "763",
+      "shapeId": "~luthFLopJaH",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Open \"sale order (fixed qty) Click > view > enter the copied sale order Click Print .",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "764",
+      "shapeId": "cnuth6iLmep.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Material would be transfered from RM/Polyhouse store to Production floor",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "765",
+      "shapeId": "LvuthBX9B5.r",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Outward executive will either raise delivery note. Prod executive will raise store requisiton Physcial movment - RM store to Potting zone. (in plant) After production tf from potting zone to finished good store - issue to outward packing is issue but not physcially moved. Barcode to be done by outward team. Outward staging area.",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "766",
+      "shapeId": "yYvtgX9Csk2g",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Outward Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "767",
+      "shapeId": "5-vtse2u5KZ0",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Production Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "768",
+      "shapeId": "2_vt~GgaueoB",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Store Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "769",
+      "shapeId": "z.vtHRWjcxKh",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Production Executive I Secondary Responsibility - Production Manager",
+      "extraText": [],
+      "containedBy": "13:2|16|17:1"
+    },
+    {
+      "rowId": "770",
+      "shapeId": "fnwtTjs-R5hI",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Outward Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "771",
+      "shapeId": "vswtYkwELIxX",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Enter following details Sales Invoice No. Transporter's name Vehicle No. Prepared By (Should be auto) Date and Time shall not be editable",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "772",
+      "shapeId": "RvwtHEIVe9od",
+      "name": "Database",
+      "kind": "step",
+      "text": "Gate Pass no. generated > Write it on Sale Order print",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "773",
+      "shapeId": "RvwtKe3k7Bnr",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "Gate Pass report",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "774",
+      "shapeId": "RvwtC593LdV8",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise (by WH manager) > select respective Gate Pass no. > Authorise",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "775",
+      "shapeId": "cxwtR9Yuh0cE",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Finance Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "776",
+      "shapeId": "fAwtJ6PgwdR8",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Outward Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "777",
+      "shapeId": "IBwtVyzxWDzP",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Open Delivery note. Enter Party Name Select SO via SO list Check available qty in \"Stock qty\" column. This will represent qty of this item in finished good store.",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "778",
+      "shapeId": "FPwtxMUlHiu_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Connect with outward logistic",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "779",
+      "shapeId": "~fxtn.QL8O0U",
+      "name": "Process",
+      "kind": "step",
+      "text": "Production activity will run in Polyhouse",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "780",
+      "shapeId": "Igxt~gmHusLA",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Plant / Non Plant",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "781",
+      "shapeId": "YgxtsE3aqefW",
+      "name": "Process",
+      "kind": "step",
+      "text": "Move material from production floor to Packing area",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "782",
+      "shapeId": "xpxtN8y0gym9",
+      "name": "Process",
+      "kind": "step",
+      "text": "Do Packing as required",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "783",
+      "shapeId": "eqxtRWRBsLfF",
+      "name": "Process",
+      "kind": "step",
+      "text": "Move material to RTD area",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "784",
+      "shapeId": "8uxtPQPhPjlw",
+      "name": "Process",
+      "kind": "step",
+      "text": "Loading of material in Vehicle",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "785",
+      "shapeId": "BvxtSQirx9jM",
+      "name": "Process",
+      "kind": "step",
+      "text": "Vehicle disptached",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "786",
+      "shapeId": "3vxtQOCxcqtF",
+      "name": "Process",
+      "kind": "step",
+      "text": "Add detail in Pan India Outward Sheet",
+      "extraText": [],
+      "containedBy": "13:2|16|17:2"
+    },
+    {
+      "rowId": "787",
+      "shapeId": "Ixxt3A1dpbWX",
+      "name": "Process",
+      "kind": "step",
+      "text": "Move material from Packing store to Outward area/ Ready to disptach area",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "788",
+      "shapeId": "V6ItpZFM~tum",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Production Executive I Secondary Responsibility - Production Manager",
+      "extraText": [],
+      "containedBy": "13:1|16|17:1"
+    },
+    {
+      "rowId": "789",
+      "shapeId": "hlJtC-Kbk6TH",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Open \"Store stock columnar report. Filter the relevant item. Check stock in finished good store.",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "790",
+      "shapeId": "rrJtCuaGajD.",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Open \"BOM REGISTER\". Filter the relevant item in \"Master item name \"column. It will show all items which are in BOM of this revelant FG. If cannot find that material > BOM does not exist.",
+      "extraText": [],
+      "containedBy": "13:2|16"
+    },
+    {
+      "rowId": "800",
+      "shapeId": "srOtZTZS9Pm6",
+      "name": "Process",
+      "kind": "step",
+      "text": "Do Barcoding",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "801",
+      "shapeId": "RtOtwHe1t0Gu",
+      "name": "Process",
+      "kind": "step",
+      "text": "Outward Process",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "802",
+      "shapeId": "txOtmcJRU8LS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Material lying in store",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "803",
+      "shapeId": "SxOth3QitQIj",
+      "name": "Process",
+      "kind": "step",
+      "text": "RM - Non Plant",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "804",
+      "shapeId": "UxOtwLw8ofjJ",
+      "name": "Process",
+      "kind": "step",
+      "text": "RM-Plant",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "805",
+      "shapeId": "tAOtXqqnCE9x",
+      "name": "Process",
+      "kind": "step",
+      "text": "As Raw material on bed",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "806",
+      "shapeId": "zAOtHQxg4qES",
+      "name": "Process",
+      "kind": "step",
+      "text": "AS FG (After potting but before packing) know as Stage qty.",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "807",
+      "shapeId": "yBOtObt97IVf",
+      "name": "Process",
+      "kind": "step",
+      "text": "As Raw material in store",
+      "extraText": [],
+      "containedBy": "13:1|16"
+    },
+    {
+      "rowId": "808",
+      "shapeId": "qFOtOHajYnMN",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Outward Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "809",
+      "shapeId": "aHOtBMy1Iniv",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Logistic Executive I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "810",
+      "shapeId": "UIOt19ypNwxN",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": "13:1|16|17:2"
+    },
+    {
+      "rowId": "896",
+      "shapeId": "b~ouyUrTt~Bd",
+      "name": "Process",
+      "kind": "step",
+      "text": "Vehicle will be parked in unloading area",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "897",
+      "shapeId": "eqpu81pXvFXv",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Passed/Rejected",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "898",
+      "shapeId": "eqpusQzqQqvB",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Fill QC form",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "899",
+      "shapeId": "eqpuSwTJ~8fU",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Fill QC form",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "900",
+      "shapeId": "1zpuBwlGiv3r",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physcially Move Material to normal good store like Plant/ Non plant etc",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "901",
+      "shapeId": "kUpuEJ9aWcQL",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective GE no. > Authorise (can be removed)",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "902",
+      "shapeId": "20puiUcM.2qF",
+      "name": "Process",
+      "kind": "step",
+      "text": "Unloading of vehicle",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "903",
+      "shapeId": "j7puOZPsTjC2",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physcially Move Material to Refurb store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "904",
+      "shapeId": "8.puKHHuuEsy",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physcially Move Material to Rejection store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "905",
+      "shapeId": "UdquOZEx5BwT",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "QC check of plant in refurb store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "906",
+      "shapeId": "OhquuJQRjYlt",
+      "name": "Delay",
+      "kind": "flow",
+      "text": "Wait to revieve",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "960",
+      "shapeId": "v~puN1A1FNxq",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Stock transfer > select enter item name > transfer material in rejection store to refurb store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "991",
+      "shapeId": "TvwngvppMZyH",
+      "name": "Process",
+      "kind": "step",
+      "text": "Export IAM report",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "996",
+      "shapeId": "u4_vCTWQEvb5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Warehouse Manager I Secondary Responsibility - SCM Head",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "997",
+      "shapeId": "u4_vUi6knrjS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Inward Process",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "999",
+      "shapeId": "EV6wCo_ueUVs",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Stock transfer > select enter item name > transfer material in refurb store to good store (RM-Plant)",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1000",
+      "shapeId": "yW6w1Zp_Aws8",
+      "name": "Delay",
+      "kind": "flow",
+      "text": "Wait, till we have material that is enough to fill one bag or atleast once a week - Wednesday",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1001",
+      "shapeId": "926w9WYfv2g_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Stock transfer > select enter item name > transfer material in refurb store to farm wastage store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1002",
+      "shapeId": ".26wzqAvfvav",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Stock transfer > select enter item name > transfer material in rejection store to farm wastage store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1003",
+      "shapeId": "r86wV2kf6UNF",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Physical Return",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1004",
+      "shapeId": "r86wwjKj7i_s",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Link to Outward and logistic",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1005",
+      "shapeId": "w09wYIur~C01",
+      "name": "Block",
+      "kind": "step",
+      "text": "Every Wednesday",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1006",
+      "shapeId": "A19wtHh6LrZs",
+      "name": "Process",
+      "kind": "step",
+      "text": "Entry in Physcial Gate register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1007",
+      "shapeId": "P19wn6CJuYqF",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Fill Following- S.No Date Bill No. Time Name of Party Description of material Qty Amount Vehicle Number Signature",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1008",
+      "shapeId": "kJ-wJZrZMSeO",
+      "name": "Process",
+      "kind": "step",
+      "text": "Minimum 20% of box will be inspected using sampling",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1009",
+      "shapeId": "4J-wHkSrZPEu",
+      "name": "Process",
+      "kind": "step",
+      "text": "OK",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1010",
+      "shapeId": "rK-wXnei73r7",
+      "name": "Process",
+      "kind": "step",
+      "text": "Calculate approve qty on Pro-rata basis",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1011",
+      "shapeId": "dL-wQ4qPvFR8",
+      "name": "Process",
+      "kind": "step",
+      "text": "Do 100% Quality check",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1012",
+      "shapeId": "TT-w9nW7vfY_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Do 100% Quality check",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1013",
+      "shapeId": "vU-wg_c7uQue",
+      "name": "Block",
+      "kind": "step",
+      "text": "Within 2 days of MRN",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1014",
+      "shapeId": "~Z-wvGuyWQ0i",
+      "name": "Block",
+      "kind": "step",
+      "text": "With in 2 days of Mail from Warehouse",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1024",
+      "shapeId": "bUqxk~zJoH7e",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open > Sales Return Inward",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1025",
+      "shapeId": "GWqxwVRelqml",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Select \"Sales Invoice Number\" against which such return is to be taken back. Enter Billed Base qty (as shown on invoice) Billed Rate Received base qty (physical count) Received based qty will be filled automatically with billed qty but if there is any difference, then we should mannually correct this.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1026",
+      "shapeId": "PeIxu0Xmj7H~",
+      "name": "Database",
+      "kind": "step",
+      "text": "SR no. generatd > Write it on Document",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1027",
+      "shapeId": "0eIxPHxKgkYf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective Challan no. > Authorise",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1028",
+      "shapeId": "bgIxkQY3VgCX",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open MRN (Material receipt note) > select challan no.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1029",
+      "shapeId": "bgIxTaEXehEL",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "This will show default store name (which is linked with that item code) We should change store name to Sale return.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1030",
+      "shapeId": "bgIxk5itPJ8i",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Authorise > select respective MRN no. > Authorise",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1031",
+      "shapeId": "bgIxeS3K9yGP",
+      "name": "Database",
+      "kind": "step",
+      "text": "MRN no. generatd > Write it on Invoice",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1032",
+      "shapeId": "bgIxu7O7eB7J",
+      "name": "Internal storage",
+      "kind": "step",
+      "text": "MRN register",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1033",
+      "shapeId": "ThIxzXV796qy",
+      "name": "Display",
+      "kind": "step",
+      "text": "Now, Inventory is live in ERP",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1034",
+      "shapeId": "FmIxxvfU12Z0",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Repacking and reprocessing >",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1035",
+      "shapeId": "ArIxtw8i2iKW",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter detail for Repacking",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1036",
+      "shapeId": "0rIxUHaXIoOe",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Select Item code that need to repack. Enter quantity This form has two section Consumed Item detail - Item that need to be repack Produced Item detail - RM Item that will be generated from repacking of above item.",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1037",
+      "shapeId": "JEIxX25.dDhM",
+      "name": "Process",
+      "kind": "step",
+      "text": "Selection of store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1038",
+      "shapeId": "IGIx1PJI_ABf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Always Refurb",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1039",
+      "shapeId": "6GIxlAdTyyWf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Can be used again - RM - Non plant Cannot be used again - Rejection",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1040",
+      "shapeId": "2HIx83tKcE3s",
+      "name": "Process",
+      "kind": "step",
+      "text": "Can be used again - RM - Non plant Cannot be used again - Rejection",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1041",
+      "shapeId": "qSIxFTaQrIh6",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Physically move material to relvant store",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1042",
+      "shapeId": "wVIxT3aJOU76",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process of Creation of Credit Note",
+      "extraText": [],
+      "containedBy": "49"
+    },
+    {
+      "rowId": "1057",
+      "shapeId": "eu6zl.hJfZIY",
+      "name": "Process",
+      "kind": "step",
+      "text": "Logon ERP",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1058",
+      "shapeId": "eu6zd7oNocGL",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Vendor Master",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1059",
+      "shapeId": "eu6zgOpsDcfO",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click New",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1060",
+      "shapeId": "eu6z.b~rBCYF",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Name Name in tally (same as 1st) Print Name (same as 1st) Address Pincode GST Type Regular - unregular Non register - unregistered State Country City (if not in dropdown create using city master) Mail Id Phone Number GSTIN No. Tax details PAN No. Default tax template Save Note :- We can create customer account of same party by simply tick on \"treat as customer\" option",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1061",
+      "shapeId": "eu6zOEHR1YDb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter/Modify follwing details",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1062",
+      "shapeId": "eu6zyJZmG8Rx",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Edit",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1063",
+      "shapeId": "eu6zGm7a-YIM",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Save",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1064",
+      "shapeId": "eu6z.rnwY_xk",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Need to link in other warehouses?",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1065",
+      "shapeId": "eu6zO7gfFL.t",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open \"Party Branch Link Master (Branch wise)",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1066",
+      "shapeId": "eu6zKasWG6kg",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "No Action required",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1067",
+      "shapeId": "eu6zvMaPoixn",
+      "name": "Process",
+      "kind": "step",
+      "text": "Select Branch in which you want to add an existing vendor",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1068",
+      "shapeId": "eu6zr5j.-pYU",
+      "name": "Process",
+      "kind": "step",
+      "text": "Tick the respective vendor",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1069",
+      "shapeId": "eu6z1adfc~mA",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Vendor Created in that branch",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1072",
+      "shapeId": "eu6zZhXNrru8",
+      "name": "Process",
+      "kind": "step",
+      "text": "SLA - Alternative days within 45 mins",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1073",
+      "shapeId": "eu6zO6XfoDEu",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Assistant Manager (Quick Comm) I Secondary Responsibility - AGM (Online) (Sumit)",
+      "extraText": [],
+      "containedBy": "23|24"
+    },
+    {
+      "rowId": "1077",
+      "shapeId": "cs_zItY2JfMQ",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Item Master",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1078",
+      "shapeId": "us_zS26pnla7",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click New",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1079",
+      "shapeId": "63jAGzWS6tnS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter the following details",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1080",
+      "shapeId": "_XjAf7SetjKK",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Item name Display name Tally name Generally same Store (default not rigid) Group Name Category RM FG etc Unit Alternate unit Item Description Costing method FIFO Market valuation Model Packing unit Each Inspection Required? Then got ot item attributes Pot category' Group code Utility HSN No GST Classification Unit of measurement",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1082",
+      "shapeId": "s~jAyOIq_HL6",
+      "name": "Process",
+      "kind": "step",
+      "text": "Save",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1083",
+      "shapeId": "oskApSRdYqRT",
+      "name": "Process",
+      "kind": "step",
+      "text": "Mail to vendor (design File, placement, UV/ NO UV )",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1084",
+      "shapeId": "oskAxgm~u2-h",
+      "name": "Process",
+      "kind": "step",
+      "text": "Design Digitally",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1085",
+      "shapeId": "FdmAiLqiDM8z",
+      "name": "Process",
+      "kind": "step",
+      "text": "Self assessment",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1087",
+      "shapeId": "vDlA-JLoOSyb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Authorize",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1088",
+      "shapeId": "GDlAWYB7pCRR",
+      "name": "Process",
+      "kind": "step",
+      "text": "Item brand & Store",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1089",
+      "shapeId": "HElABPI20v7w",
+      "name": "Process",
+      "kind": "step",
+      "text": "Open Item MRP and Abatement",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1090",
+      "shapeId": "oskAKlbp6I9c",
+      "name": "Process",
+      "kind": "step",
+      "text": "Mockup Check for Content Placement/Correction",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1091",
+      "shapeId": "UGmACP_saRu5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Brainstroming",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1092",
+      "shapeId": "6GmAJvmNMp0c",
+      "name": "Process",
+      "kind": "step",
+      "text": "Final Inspiration",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1093",
+      "shapeId": "yHmAKUxbj8eq",
+      "name": "Process",
+      "kind": "step",
+      "text": "Prepare Inspiration mood board",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1094",
+      "shapeId": "aImA9h7XtZEt",
+      "name": "Process",
+      "kind": "step",
+      "text": "Start Designing",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1095",
+      "shapeId": "WImAmZQF.s7-",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Approve by CEO",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1096",
+      "shapeId": "OBnAkXU-MlC7",
+      "name": "Process",
+      "kind": "step",
+      "text": "Print Silver Sample",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1097",
+      "shapeId": "vNnAQyKNq0Kb",
+      "name": "Process",
+      "kind": "step",
+      "text": "Coloured Print Silver Sample",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1098",
+      "shapeId": "_QnAiJO.8pgR",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Approve by CEO",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1099",
+      "shapeId": "zZnAI-7F1we5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Physical visit to Vendor with RM sample for technicality check & Material Approval",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1100",
+      "shapeId": "u1nAUxVPBWG-",
+      "name": "Process",
+      "kind": "step",
+      "text": "Redesign",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1101",
+      "shapeId": "P_nA_oIHrG_2",
+      "name": "Process",
+      "kind": "step",
+      "text": "Receive a Golden Sample from Vendor",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1102",
+      "shapeId": "T.nA2IMSZCuS",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Approve by CEO",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1103",
+      "shapeId": "XPoA6Dd_O.u-",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Update",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1104",
+      "shapeId": "-HoApBSb7yQf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter the item name and update the necessary details as required.",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1105",
+      "shapeId": "UQoAF2wqFm9e",
+      "name": "Process",
+      "kind": "step",
+      "text": "Authorise",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1106",
+      "shapeId": "wVoAtLo0.6cf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click New",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1107",
+      "shapeId": "VWoAyX-35FAi",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter brand & store details",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1108",
+      "shapeId": "~XoAfm_uXWy8",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Save",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1109",
+      "shapeId": "H1oAD2e_LgvS",
+      "name": "Process",
+      "kind": "step",
+      "text": "Load item details",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1110",
+      "shapeId": "_9pADIImwuZJ",
+      "name": "Process",
+      "kind": "step",
+      "text": "MRP update",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1111",
+      "shapeId": "K8oACMV3fs9f",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Terminate the process",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1112",
+      "shapeId": "n3lAWNNkIYB.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click Edit",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1113",
+      "shapeId": "UAqAXk.ZIIRg",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "MRP change?",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1115",
+      "shapeId": "_SqAobFm2Rjw",
+      "name": "Process",
+      "kind": "step",
+      "text": "Primary Responsibility - Assistant Manager Ecom I Secondary Responsibility -",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1116",
+      "shapeId": "VTqAhDXmF9Vk",
+      "name": "Process",
+      "kind": "step",
+      "text": "SLA -",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1117",
+      "shapeId": "uxFAqQK1ghcl",
+      "name": "Process",
+      "kind": "step",
+      "text": "Click New",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1118",
+      "shapeId": "VxFAIOgazEJj",
+      "name": "Process",
+      "kind": "step",
+      "text": "Enter the following details",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1119",
+      "shapeId": "dyFATKfS0B_F",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Load item details Group Name Item Category Item Code Item Name Add Currency price",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1120",
+      "shapeId": "gPFAURx0c7jV",
+      "name": "Process",
+      "kind": "step",
+      "text": "Save",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1121",
+      "shapeId": "pPFArNArEg9P",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Terminator the process",
+      "extraText": [],
+      "containedBy": "23|25"
+    },
+    {
+      "rowId": "1122",
+      "shapeId": "ORFAvzN.1TIv",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1123",
+      "shapeId": "WVFAeIeiNBh2",
+      "name": "Process",
+      "kind": "step",
+      "text": "SLA - Alternative days within 45 mins",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1139",
+      "shapeId": "QhHDYhTYQwa6",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1140",
+      "shapeId": "miHD3DB1jL1.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1141",
+      "shapeId": "oiHDQPjB2y4L",
+      "name": "Process",
+      "kind": "step",
+      "text": "Process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1223",
+      "shapeId": "L2PF4yuRLuV.",
+      "name": "Process",
+      "kind": "step",
+      "text": "Stock",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1224",
+      "shapeId": "U8PF0jv9qPtk",
+      "name": "Process",
+      "kind": "step",
+      "text": "Staff",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1225",
+      "shapeId": "m-PFOIRe6.jv",
+      "name": "Process",
+      "kind": "step",
+      "text": "Communication",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1249",
+      "shapeId": "Lt9Follup94i",
+      "name": "Process",
+      "kind": "step",
+      "text": "Retail Ops",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1250",
+      "shapeId": "99PFtlmK1VFu",
+      "name": "Process",
+      "kind": "step",
+      "text": "Display",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1380",
+      "shapeId": "dNXHV3l-SUYK",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Is benefits understood?",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1381",
+      "shapeId": "0QXHjS5OLZ5J",
+      "name": "Process",
+      "kind": "step",
+      "text": "Customer need Identification",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1382",
+      "shapeId": "cRXHgeLtf6c5",
+      "name": "Process",
+      "kind": "step",
+      "text": "?????",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1383",
+      "shapeId": "8XXHu3cukKje",
+      "name": "Process",
+      "kind": "step",
+      "text": "Product Recommendation Storytelling Sales pitch",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1384",
+      "shapeId": "LYXHg5PWfr0b",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Walk-in- browsing Intent Planning ??",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1385",
+      "shapeId": "M3XHWl_j.tWV",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Check Customer Confidence",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1386",
+      "shapeId": "d6XHQbS1DJYu",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Terminate process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1387",
+      "shapeId": "L6XH3QnV6pSO",
+      "name": "Process",
+      "kind": "step",
+      "text": "Re-explain Re-work on pitch",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1395",
+      "shapeId": "GxcIHBUczzh1",
+      "name": "Process",
+      "kind": "step",
+      "text": "Re work Placement",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1396",
+      "shapeId": "GxcI4PM5f-PR",
+      "name": "Process",
+      "kind": "step",
+      "text": "Align with VM guidelines",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1397",
+      "shapeId": "GxcIJ1Xt.2Xk",
+      "name": "Process",
+      "kind": "step",
+      "text": "Re-check",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1398",
+      "shapeId": "GxcI3f8OR.5x",
+      "name": "Process",
+      "kind": "step",
+      "text": "Communication Visually Clear to Customer",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1399",
+      "shapeId": "GxcIY8SUILdC",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Easy to Understand Message Understandable 3-5 Sec Not Cluttered",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1400",
+      "shapeId": "GxcI5oeBlrde",
+      "name": "Process",
+      "kind": "step",
+      "text": "Is there over-communication?",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1401",
+      "shapeId": "GxcIb-5fH3Rf",
+      "name": "Process",
+      "kind": "step",
+      "text": "Reduce communication clutter Keep 1 –2 strong messages",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1402",
+      "shapeId": "GxcIN6.Kgnmc",
+      "name": "Process",
+      "kind": "step",
+      "text": "Check: Too many danglers? Too many messages? Customer confusion?",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1403",
+      "shapeId": "GxcI2ABzC~yn",
+      "name": "Terminator",
+      "kind": "flow",
+      "text": "Terminate Process",
+      "extraText": [],
+      "containedBy": ""
+    },
+    {
+      "rowId": "1426",
+      "shapeId": "cUYJJarB.hwg",
+      "name": "Process",
+      "kind": "step",
+      "text": "????",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1427",
+      "shapeId": "nUYJteIflKk~",
+      "name": "Process",
+      "kind": "step",
+      "text": "SLA - Alternative days within 45 mins",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1428",
+      "shapeId": "8VYJ5LCpbWnA",
+      "name": "Process",
+      "kind": "step",
+      "text": "Screening & Evaluation",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1429",
+      "shapeId": "6WYJUrBacrhG",
+      "name": "Process",
+      "kind": "step",
+      "text": "Market Demand",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1430",
+      "shapeId": "3ZYJU0kx1z1C",
+      "name": "Process",
+      "kind": "step",
+      "text": "Sales Potential",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1431",
+      "shapeId": "A1YJ-LuWsYJJ",
+      "name": "Process",
+      "kind": "step",
+      "text": "Competition",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1432",
+      "shapeId": "B3YJi4TbWNmI",
+      "name": "Process",
+      "kind": "step",
+      "text": "Pricing",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1433",
+      "shapeId": "-3YJShmmjY1t",
+      "name": "Process",
+      "kind": "step",
+      "text": "Margins",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1434",
+      "shapeId": "E5YJG0uR51rr",
+      "name": "Process",
+      "kind": "step",
+      "text": "Seasonality",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1435",
+      "shapeId": "i7YJNwvaSXL9",
+      "name": "Process",
+      "kind": "step",
+      "text": "Total addressable market (TAM) through deep research as per category",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1436",
+      "shapeId": "RlZJofSFJFkc",
+      "name": "Sticky note",
+      "kind": "note",
+      "text": "Total Addressable Market (TAM) refers to the total revenue opportunity available for a product or service if it captures 100% of the market demand within a defined category, geography, and customer segment.",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1437",
+      "shapeId": "HtZJDTr7~_J_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Product level market reserach as per gobal trend to establish leaders & trends",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1438",
+      "shapeId": "rwZJBEhWI3wT",
+      "name": "Decision",
+      "kind": "flow",
+      "text": "Is it already being sourced/produced in India ?",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1439",
+      "shapeId": "TxZJTAeSqkTv",
+      "name": "Process",
+      "kind": "step",
+      "text": "Decide: If existing product has potential or innovate as per need",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1440",
+      "shapeId": "qFZJWrpXgyX_",
+      "name": "Process",
+      "kind": "step",
+      "text": "Identify market leaders if existing product",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1441",
+      "shapeId": "4HZJ4sXl8x_Q",
+      "name": "Process",
+      "kind": "step",
+      "text": "Identify Sourcing Channels",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1442",
+      "shapeId": "YJZJ3ifhc6c7",
+      "name": "Process",
+      "kind": "step",
+      "text": "Products are perishable in nature",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1443",
+      "shapeId": "61ZJLi~Dhr11",
+      "name": "Process",
+      "kind": "step",
+      "text": "Check Sales Trend on leading platform (HC, AMZ, BLT)",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1444",
+      "shapeId": "o.ZJYiR80dc5",
+      "name": "Process",
+      "kind": "step",
+      "text": "Check SP & estimated CM",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1445",
+      "shapeId": "e~ZJmZlxnvxx",
+      "name": "Process",
+      "kind": "step",
+      "text": "COGS should be 25%of SP",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1446",
+      "shapeId": "F~ZJee0xkqCJ",
+      "name": "Process",
+      "kind": "step",
+      "text": "Proceed to design",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1447",
+      "shapeId": "na0JK4yksne3",
+      "name": "Process",
+      "kind": "step",
+      "text": "Shelf",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1448",
+      "shapeId": "zd0JCGQ181UB",
+      "name": "Process",
+      "kind": "step",
+      "text": "Check if Product launch timelines are geographically suitable for GTM",
+      "extraText": [],
+      "containedBy": "23|34"
+    },
+    {
+      "rowId": "1478",
+      "shapeId": "bTgKaEpoKaZu",
+      "name": "Process",
+      "kind": "step",
+      "text": "discuss with annu",
+      "extraText": [],
+      "containedBy": "36"
+    },
+    {
+      "rowId": "1538",
+      "shapeId": "ME5Ll3hik_vj",
+      "name": "Process",
+      "kind": "step",
+      "text": "Retain at NPD Room / CEO Home",
+      "extraText": [],
+      "containedBy": "23|26"
+    },
+    {
+      "rowId": "1581",
+      "shapeId": "pD1MAZDfHiA-",
+      "name": "Process",
+      "kind": "step",
+      "text": "E-com",
+      "extraText": [],
+      "containedBy": ""
+    }
+  ]
+}
