@@ -22,8 +22,9 @@ export default function BrandLogo({
       style={{
         display: 'inline-flex',
         alignItems: 'center',
-        gap: '12px',
+        gap: '10px',
         textDecoration: 'none',
+        '--logo-height': `${height}px`,
       }}
     >
       {/* Blue Logo for Light Mode & Light surfaces */}
@@ -32,9 +33,6 @@ export default function BrandLogo({
         alt="Nurturing Green"
         className={`brand-logo-img logo-blue ${isWhite ? 'hide-forced' : ''}`}
         style={{
-          height: `${height}px`,
-          width: 'auto',
-          objectFit: 'contain',
           display: isWhite ? 'none' : undefined,
         }}
       />
@@ -45,9 +43,6 @@ export default function BrandLogo({
         alt="Nurturing Green"
         className={`brand-logo-img logo-white ${isBlue ? 'hide-forced' : ''}`}
         style={{
-          height: `${height}px`,
-          width: 'auto',
-          objectFit: 'contain',
           display: isBlue ? 'none' : (isWhite ? 'block' : undefined),
         }}
       />
